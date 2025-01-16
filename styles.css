@@ -13,6 +13,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   color: #fff;
   margin-bottom: 2rem;
 }
@@ -38,8 +39,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 30rem;
-  width: 100%;
+  width: 30rem;
   margin-bottom: 1rem;
 }
 
@@ -74,4 +74,25 @@ h3 {
   border: 1px solid #850000;
   background-color: #ffadad;
   color: #850000;
+}
+
+@media (max-width: 35rem) {
+  html {
+    font-size: 87.5%;
+  }
+}
+@media (max-width: 30rem) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (max-width: 25rem) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 20rem) {
+  html {
+    font-size: 50%;
+  }
 }
